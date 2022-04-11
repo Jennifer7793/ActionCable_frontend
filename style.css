@@ -3,4 +3,9 @@
 }
 .room-button{
   color: purple;
+  margin: 0.5rem;
+}
+.all_room{
+  color: darkblue;
+  border: 1px yellow solid;
 }

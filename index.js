@@ -15,7 +15,7 @@ function renderChatRoomsList(chatRoomsObject) {
 function renderChatRoomOnList(chatRoomObject) {
     const chatRoomDiv = document.createElement('div');
 
-    chatRoomDiv.innerHTML = `${chatRoomObject.name} <button class='join-chat-room-button' data-chat-room-id='${chatRoomObject.id}'>Join</button>`
+    chatRoomDiv.innerHTML = `${chatRoomObject.name} <button class='join-chat-room-button room-button' data-chat-room-id='${chatRoomObject.id}'>Join</button>`
 
     chatRoomListDiv.prepend(chatRoomDiv);
 }
