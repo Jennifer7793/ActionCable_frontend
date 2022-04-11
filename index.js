@@ -55,7 +55,7 @@ function createChatRoomWebsocketConnection(chatRoomId) {
     // Creates the new websocket connection
     socket = new WebSocket(webSocketUrl);
 
-        // When the connection is 1st created, this code runs subscribing the clien to a specific chatroom stream in the ChatRoomChannel
+        // When the connection is 1st created, this code runs subscribing the client to a specific chatroom stream in the ChatRoomChannel
         socket.onopen = function(event) {
             console.log('WebSocket is connected.');
 
